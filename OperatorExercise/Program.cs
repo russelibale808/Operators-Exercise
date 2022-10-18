@@ -6,16 +6,20 @@ namespace OperatorExercise
     {
         static void Main(string[] args)
         {
+            
             // Exercise 1
             int a = 17;
             int b = 4;
 
+            int add = a + b;
+            int diff = a - b;
+            int product = a * b;
             int quotient = a / b;
             int remainder = a % b;
 
             if (a == 17 && b == 4)
 
-            Console.WriteLine("17/4 is 4 remainder " + (remainder));
+            Console.WriteLine($"{a} / {b} is {quotient} remainder " + (remainder));
 
             // Exercise 2
 
